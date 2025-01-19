@@ -8,8 +8,8 @@ export default function Page404Content() {
 	return (
 		<div className="">
 			<SEO
-				title={'This page does not exist (404)'}
-				description={'Sorry, we couldn’t find the page you’re looking for.'}
+				title={'Not Found (404)'}
+				description={'Sorry, you have been pushed here by unknown force.'}
 			/>
 
 			<main className="mx-auto w-full max-w-7xl px-6 pb-16 pt-5 sm:pb-20 lg:px-8">
@@ -27,7 +27,7 @@ export default function Page404Content() {
 						Page not found
 					</h1>
 					<p className="mt-4 text-base leading-7 text-gray-600 dark:text-neutral-400">
-						Sorry, we couldn’t find the page you’re looking for.
+					Sorry, you have been pushed here by unknown force
 					</p>
 					<div className="mt-10 flex justify-center">
 						<Link
@@ -37,7 +37,7 @@ export default function Page404Content() {
 							<span className="me-2 rtl:rotate-180" aria-hidden="true">
 								&larr;
 							</span>
-							Back to home
+							Back to safety
 						</Link>
 					</div>
 				</div>
