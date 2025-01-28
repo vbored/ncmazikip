@@ -14,7 +14,7 @@ import NextNProgress from 'nextjs-progressbar'
 import themeJson from '@/../theme.json'
 import { GoogleAnalytics } from 'nextjs-google-analytics'
 
-const outfit = Figtree({
+const figtree = Figtree({
 	subsets: ['latin'],
 	display: 'swap',
 	weight: ['300', '400', '500', '600', '700'],
