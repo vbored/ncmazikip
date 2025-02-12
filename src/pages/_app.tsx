@@ -14,7 +14,8 @@ import NextNProgress from 'nextjs-progressbar'
 import themeJson from '@/../theme.json'
 import { GoogleAnalytics } from 'nextjs-google-analytics'
 
-const reddit = Reddit_Sans ({
+// Corrected font import
+const redditSans = Reddit_Sans({
 	subsets: ['latin'],
 	display: 'swap',
 	weight: ['300', '400', '500', '600', '700'],
@@ -37,7 +38,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 					<SiteWrapperProvider {...pageProps}>
 						<style jsx global>{`
 							html {
-								font-family: ${reddit.style.fontFamily};
+								font-family: ${redditSans.style.fontFamily};
 							}
 						`}</style>
 						<NextNProgress color="#818cf8" />
