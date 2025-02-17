@@ -72,7 +72,7 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2025 ikip, Inc. All rights reserved."
+		"all_rights_reserved_text": "© 2025 ikip Inc. All rights reserved."
 	},
 	"single_page": {
 		"show_view_cout": true,
@@ -109,7 +109,7 @@
 		"show_top_categories": true
 	},
 	"post_card": {
-		"show_view_cout": false,
+		"show_view_cout": true,
 		"show_comment_count": true
 	},
 	"submissions-settings": {
@@ -226,7 +226,7 @@
 			},
 			{
 				"name": "phone",
-				"title": "☎️ PHONE Whatsapp",
+				"title": "☎️ Whatsapp",
 				"desc": "+254 726 516 444"
 			},
 			{
